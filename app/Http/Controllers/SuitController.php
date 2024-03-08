@@ -54,7 +54,9 @@ class SuitController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * the code in this method is the same of method below (updateSuit) 
+     * but i do not know why patch and put method does not work when send the data with multi part form data
+     * would you explain that to me
      */
     public function update(Request $request, string $id)
     {
